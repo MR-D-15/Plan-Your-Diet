@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Checker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style2.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="nav_item"><a href="userHomepage.html">Home</a></li>
+            <li class="nav_item"><a href="dietPlan.html">Diet Plan</a></li>
+            <li class="nav_item"><a href="sign_in.html">Sign Out</a></li>
+        </ul>
+    </nav>
+
+    <div class="bmi">
+        <div class="bmiImage">
+            <img src="./Images/bmi.webp" alt="" height="600px" width="700px">
+        </div>
+        <div class="bmiForm">
+            <form action="#">
+                <h1>BMI Checker</h1><hr>
+                <label for="weight">Weight</label><br>
+                <input type="number" name="weight" id="weight" placeholder="kg"><br>
+                <label for="height">Height</label><br>
+                <input type="number" name="heightFeet" id="height1" placeholder="ft" style="width: 200px;">
+                <input type="number" name="heightInch" id="height2" placeholder="inch" style="width: 200px;"><br>
+                <input type="button" class="btn" value="Check" onclick="bmiCheck()">
+            </form>
+            <div id="result">
+
+            </div>
+            <div id="checkPlan">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
