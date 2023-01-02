@@ -25,7 +25,7 @@ function bmiCheck(){
         document.getElementById("result").innerHTML = "Your BMI is "+r+". You are in 'Obesity' stage!";
     else
         document.getElementById("result").innerHTML = "Your BMI is "+r+". You are in 'Extremely Obesity' stage!";
-    document.getElementById("checkPlan").innerHTML = '<a href="dietPlan.html">Click Here</a> to see your Diet Plan!!!';
+    document.getElementById("checkPlan").innerHTML = '<a href="/dietPlan">Click Here</a> to see your Diet Plan!!!';
     }
 }
 

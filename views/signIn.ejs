@@ -1,0 +1,32 @@
+<%- include("partials/header1"); %>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="nav_item"><a href="/">Home</a></li>
+            <li class="nav_item"><a href="/about">About</a></li>
+            <li class="nav_item"><a href="/help">Help</a></li>
+            <li class="nav_item"><a href="/signIn">Sign in</a></li>
+        </ul>
+    </nav>
+    
+    <div class="signIn">
+        <div class="signInImage">
+            <img src="./Images/diet2.jpeg" alt="" height="400px" width="550px">
+        </div>
+        <div class="signInForm">
+            <form action="/userHomepage">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id=""><br>
+        
+                <label for="password">Password</label><br>
+                <input type="password" name="password">
+    
+                <button class="signInButton">Sign in</button>
+            </form>
+            <a href="/signUp">Create an account...</a>
+            <a href="/forgotPassword" style="float: right;">Forgot Password?</a>
+        </div>
+    </div>
+</body>
+</html>
