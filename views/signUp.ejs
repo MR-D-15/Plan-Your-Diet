@@ -15,38 +15,38 @@
             <img src="./Images/diet3.jpg" alt="" height="600px" width="800px">
         </div>
         <div class="signUpForm">
-            <form action="">
+            <form action="/register" method="POST">
                 <label for="gender">Gender</label>
-                <input type="radio" name="gender" id="" style="width: 10%; height: 15px;"> <label for="male">Male</label>
-                <input type="radio" name="gender" id="" style="width: 10%; height: 15px;"><label for="female">Female</label> <br>
+                <input type="radio" name="gender" style="width: 10%; height: 15px;" value="Male"> <label for="male">Male</label>
+                <input type="radio" name="gender" style="width: 10%; height: 15px;" value="Female"><label for="female">Female</label> <br>
 
                 <label for="name">Name</label><br>
-                <input type="text" name="name" id=""><br>
+                <input type="text" name="name"><br>
 
                 <label for="email">Email</label><br>
-                <input type="email" name="email" id=""><br>
+                <input type="email" name="username"><br>
 
                 <label for="birthDate">Birth Date</label><br>
-                <input type="date" name="date" id=""><br>
+                <input type="date" name="birthDate"><br>
 
                 <label for="sickness">Sickness</label>
-                <select name="cars" id="cars" style="height: 30px; margin:10px; font-weight: 500; font-size: 18px;">
-                    <option value="none">None</option>
+                <select name="sickness" style="height: 30px; margin:10px; font-weight: 500; font-size: 18px;">
+                    <option value="None">None</option>
                     <option value="Diabetes">Diabetes</option>
-                    <option value="hbp">High Blood Pressure</option>
-                    <option value="lbp">Low Blood Pressure</option>
-                    <option value="hd">Heart Disease</option>
-                    <option value="pcos">PCOS</option>
-                    <option value="pcod">PCOD</option>
+                    <option value="High Blood Pressure">High Blood Pressure</option>
+                    <option value="Low Blood Pressure">Low Blood Pressure</option>
+                    <option value="Heart Disease">Heart Disease</option>
+                    <option value="PCOS">PCOS</option>
+                    <option value="PCOD">PCOD</option>
                   </select><br>
         
                 <label for="password">Password</label><br>
                 <input type="password" name="password">
 
                 <label for="password">Confirm Password</label><br>
-                <input type="password" name="password">
+                <input type="password" name="confirmPassword">
     
-                <button class="signUpButton">Sign up</button>
+                <button type="submit" class="signUpButton">Sign up</button>
             </form>
 
         </div>

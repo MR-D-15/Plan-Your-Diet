@@ -15,14 +15,14 @@
             <img src="./Images/diet2.jpeg" alt="" height="400px" width="550px">
         </div>
         <div class="signInForm">
-            <form action="/userHomepage">
+            <form action="/signedIn" method="POST">
                 <label for="email">Email</label><br>
-                <input type="email" name="email" id=""><br>
+                <input type="email" name="username"><br>
         
                 <label for="password">Password</label><br>
                 <input type="password" name="password">
     
-                <button class="signInButton">Sign in</button>
+                <button type="submit" class="signInButton">Sign in</button>
             </form>
             <a href="/signUp">Create an account...</a>
             <a href="/forgotPassword" style="float: right;">Forgot Password?</a>
